@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:text="Quản lý thông tin tuyển sinh"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="26dp" />
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btnStudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinh viên"
+                android:drawableTop="@drawable/student"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/btnTarget"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/target"
+                android:text="Chỉ tiêu tuyển sinh"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lớp"
+                android:drawableTop="@drawable/classroom"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/btnBranch"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/branch"
+                android:text="Ngành đào tạo"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnExit"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/logout"
+                android:text="Đăng xuất"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:gravity="bottom"
+        android:text="\@Created by Group 12"
+        android:textAlignment="center" />
+
+</LinearLayout>
